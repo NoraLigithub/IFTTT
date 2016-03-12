@@ -1,0 +1,19 @@
+0    DEBUG [2016-01-08 16:03:19]  Request:
+3    DEBUG [2016-01-08 16:03:19]  POSThttps://api.weibo.com/2/statuses/update.json
+322  DEBUG [2016-01-08 16:03:20]  Authorization: OAuth2 2.00pOnRFGNqOXMD4d2a126c4brGlkqC
+322  DEBUG [2016-01-08 16:03:20]  API-RemoteIP: 192.168.37.1
+1728 DEBUG [2016-01-08 16:03:21]  Response:
+1729 DEBUG [2016-01-08 16:03:21]  https StatusCode:200
+1729 DEBUG [2016-01-08 16:03:21]  Server:nginx/1.6.1
+1730 DEBUG [2016-01-08 16:03:21]  Date:Fri, 08 Jan 2016 08:03:43 GMT
+1730 DEBUG [2016-01-08 16:03:21]  Content-Type:application/json;charset=UTF-8
+1731 DEBUG [2016-01-08 16:03:21]  Transfer-Encoding:chunked
+1731 DEBUG [2016-01-08 16:03:21]  Connection:keep-alive
+1732 DEBUG [2016-01-08 16:03:21]  Api-Server-IP:10.77.108.40
+1732 DEBUG [2016-01-08 16:03:21]  Vary:Accept-Encoding
+1732 DEBUG [2016-01-08 16:03:21]  SINA-LB:aGEuMjIuZzEuc2UubGIuc2luYW5vZGUuY29t
+1733 DEBUG [2016-01-08 16:03:21]  SINA-TS:NGI4OGMzNjggMCAxIDEgMiA1NDYK
+1772 WARN  [2016-01-08 16:03:21]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1774 DEBUG [2016-01-08 16:03:21]  {"created_at":"Fri Jan 08 16:03:42 +0800 2016","id":3929042627475599,"mid":"3929042627475599","idstr":"3929042627475599","text":"s","textLength":1,"source_allowclick":0,"source_type":1,"source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":5574919523,"idstr":"5574919523","class":1,"screen_name":"解南阳","name":"解南阳","province":"32","city":"1","location":"江苏 南京","description":"有些事情，想说给懂的人听。","url":"","profile_image_url":"http://tp4.sinaimg.cn/5574919523/50/5722512010/0","profile_url":"u/5574919523","domain":"","weihao":"","gender":"f","followers_count":11,"friends_count":13,"pagefriends_count":0,"statuses_count":67,"favourites_count":3,"created_at":"Sat Mar 28 19:03:29 +0800 2015","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/5574919523/180/5722512010/0","avatar_hd":"http://ww4.sinaimg.cn/crop.0.0.750.750.1024/0065hNePjw8eqlpddef0jj30ku0kuwez.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":7,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"user_ability":0,"urank":9},"reposts_count":0,"comments_count":0,"attitudes_count":0,"isLongText":false,"mlevel":0,"visible":{"type":0,"list_id":0},"biz_feature":0,"darwin_tags":[],"userType":257}
+
+1963 INFO  [2016-01-08 16:03:21]  Status [user=User [id=5574919523, screenName=解南阳, name=解南阳, province=32, city=1, location=江苏 南京, description=有些事情，想说给懂的人听。, url=, profileImageUrl=http://tp4.sinaimg.cn/5574919523/50/5722512010/0, userDomain=, gender=f, followersCount=11, friendsCount=13, statusesCount=67, favouritesCount=3, createdAt=Sat Mar 28 19:03:29 CST 2015, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp4.sinaimg.cn/5574919523/180/5722512010/0, onlineStatus=0, status=null, biFollowersCount=7, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3929042627475599, createdAt=Fri Jan 08 16:03:42 CST 2016, id=3929042627475599, text=s, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3929042627475599, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
